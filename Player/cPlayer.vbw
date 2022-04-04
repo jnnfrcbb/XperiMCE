@@ -1,7 +1,0 @@
-PlayerControl = 50, 50, 834, 548, Z, 25, 25, 809, 523, C
-modNetRadio = 225, 225, 1009, 723, C
-modBass = 50, 50, 834, 548, C
-clsFileIo = 100, 100, 885, 598, C
-bass_aac = 0, 0, 0, 0, C
-bass_alac = 0, 0, 0, 0, C
-BASSCD = 0, 0, 0, 0, C
