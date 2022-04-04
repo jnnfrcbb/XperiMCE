@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppCommandApi>
+<CommandList>
+<Command value="20"><Name>APPCOMMAND_BASS_BOOST</Name><Description>Toggle the bass boost on and off.</Description></Command>
+<Command value="19"><Name>APPCOMMAND_BASS_DOWN</Name><Description>Decrease the bass. </Description></Command>
+<Command value="21"><Name>APPCOMMAND_BASS_UP</Name><Description>Increase the bass. </Description></Command>
+<Command value="1"><Name>APPCOMMAND_BROWSER_BACKWARD</Name><Description>Navigate backward. </Description></Command>
+<Command value="6"><Name>APPCOMMAND_BROWSER_FAVORITES</Name><Description>Open favorites. </Description></Command>
+<Command value="2"><Name>APPCOMMAND_BROWSER_FORWARD</Name><Description>Navigate forward. </Description></Command>
+<Command value="7"><Name>APPCOMMAND_BROWSER_HOME</Name><Description>Navigate home. </Description></Command>
+<Command value="3"><Name>APPCOMMAND_BROWSER_REFRESH</Name><Description>Refresh page. </Description></Command>
+<Command value="5"><Name>APPCOMMAND_BROWSER_SEARCH</Name><Description>Open search. </Description></Command>
+<Command value="4"><Name>APPCOMMAND_BROWSER_STOP</Name><Description>Stop download. </Description></Command>
+<Command value="31"><Name>APPCOMMAND_CLOSE</Name><MinOS value="XP" /><Description>Close the window (not the application). </Description></Command>
+<Command value="35"><Name>APPCOMMAND_COPY</Name><MinOS value="XP" /><Description>Copy the selection. </Description></Command>
+<Command value="45"><Name>APPCOMMAND_CORRECTION_LIST</Name><MinOS value="XP" /><Description>Brings up the correction list when a word is incorrectly identified during speech input.  </Description></Command>
+<Command value="37"><Name>APPCOMMAND_CUT</Name><MinOS value="XP" /><Description>Cut the selection. </Description></Command>
+<Command value="43"><Name>APPCOMMAND_DICTATE_OR_COMMAND_CONTROL_TOGGLE</Name><MinOS value="XP" /><Description>Toggles between two modes of speech input: dictation and command/control (giving commands to an application or accessing menus).  </Description></Command>
+<Command value="28"><Name>APPCOMMAND_FIND</Name><MinOS value="XP" /><Description>Open the Find dialog. </Description></Command>
+<Command value="40"><Name>APPCOMMAND_FORWARD_MAIL</Name><MinOS value="XP" /><Description>Forward a mail message. </Description></Command>
+<Command value="27"><Name>APPCOMMAND_HELP</Name><MinOS value="XP" /><Description>Open the Help dialog. </Description></Command>
+<Command value="17"><Name>APPCOMMAND_LAUNCH_APP1</Name><Description>Start App1. </Description></Command>
+<Command value="18"><Name>APPCOMMAND_LAUNCH_APP2</Name><Description>Start App2. </Description></Command>
+<Command value="15"><Name>APPCOMMAND_LAUNCH_MAIL</Name><Description>Open mail. </Description></Command>
+<Command value="16"><Name>APPCOMMAND_LAUNCH_MEDIA_SELECT</Name><Description>Go to Media Select mode. </Description></Command>
+<Command value="11"><Name>APPCOMMAND_MEDIA_NEXTTRACK</Name><Description>Go to next track. </Description></Command>
+<Command value="14"><Name>APPCOMMAND_MEDIA_PLAY_PAUSE</Name><Description>Play or pause playback. </Description></Command>
+<Command value="12"><Name>APPCOMMAND_MEDIA_PREVIOUSTRACK</Name><Description>Go to previous track. </Description></Command>
+<Command value="13"><Name>APPCOMMAND_MEDIA_STOP</Name><Description>Stop playback. </Description></Command>
+<Command value="44"><Name>APPCOMMAND_MIC_ON_OFF_TOGGLE</Name><MinOS value="XP" /><Description>Toggle the microphone. </Description></Command>
+<Command value="25"><Name>APPCOMMAND_MICROPHONE_VOLUME_DOWN</Name><MinOS value="XP" /><Description>Increase microphone volume. </Description></Command>
+<Command value="24"><Name>APPCOMMAND_MICROPHONE_VOLUME_MUTE</Name><MinOS value="XP" /><Description>Mute the microphone. </Description></Command>
+<Command value="26"><Name>APPCOMMAND_MICROPHONE_VOLUME_UP</Name><MinOS value="XP" /><Description>Decrease microphone volume. </Description></Command>
+<Command value="29"><Name>APPCOMMAND_NEW</Name><MinOS value="XP" /><Description>Create a new window. </Description></Command>
+<Command value="30"><Name>APPCOMMAND_OPEN</Name><MinOS value="XP" /><Description>Open a window. </Description></Command>
+<Command value="38"><Name>APPCOMMAND_PASTE</Name><MinOS value="XP" /><Description>Paste </Description></Command>
+<Command value="33"><Name>APPCOMMAND_PRINT</Name><MinOS value="XP" /><Description>Print current document. </Description></Command>
+<Command value="35"><Name>APPCOMMAND_REDO</Name><MinOS value="XP" /><Description>Redo last action. </Description></Command>
+<Command value="39"><Name>APPCOMMAND_REPLY_TO_MAIL</Name><MinOS value="XP" /><Description>Reply to a mail message. </Description></Command>
+<Command value="32"><Name>APPCOMMAND_SAVE</Name><MinOS value="XP" /><Description>Save current document. </Description></Command>
+<Command value="41"><Name>APPCOMMAND_SEND_MAIL</Name><MinOS value="XP" /><Description>Send a mail message. </Description></Command>
+<Command value="42"><Name>APPCOMMAND_SPELL_CHECK</Name><MinOS value="XP" /><Description>Initiate a spell check. </Description></Command>
+<Command value="22"><Name>APPCOMMAND_TREBLE_DOWN</Name><Description>Decrease the treble. </Description></Command>
+<Command value="23"><Name>APPCOMMAND_TREBLE_UP</Name><Description>Increase the treble. </Description></Command>
+<Command value="34"><Name>APPCOMMAND_UNDO</Name><MinOS value="XP" /><Description>Undo last action. </Description></Command>
+<Command value="9"><Name>APPCOMMAND_VOLUME_DOWN</Name><Description>Lower the volume. </Description></Command>
+<Command value="8"><Name>APPCOMMAND_VOLUME_MUTE</Name><Description>Mute the volume. </Description></Command>
+<Command value="46"><Name>APPCOMMAND_MEDIA_PLAY</Name><Description>Raise the volume. </Description></Command>
+<Command value="47"><Name>APPCOMMAND_MEDIA_PAUSE</Name><Description>Raise the volume. </Description></Command>
+<Command value="48"><Name>APPCOMMAND_MEDIA_RECORD</Name><Description>Raise the volume. </Description></Command>
+<Command value="49"><Name>APPCOMMAND_MEDIA_FAST_FORWARD</Name><Description>Raise the volume. </Description></Command>
+<Command value="50"><Name>AAPPCOMMAND_MEDIA_REWIND</Name><Description>Raise the volume. </Description></Command>
+<Command value="51"><Name>AAPPCOMMAND_MEDIA_CHANNEL_UP = 51</Name><Description>Raise the volume. </Description></Command>
+<Command value="51"><Name>APPCOMMAND_MEDIA_CHANNEL_DOWN</Name><Description>Raise the volume. </Description></Command>
+</CommandList>
+<DeviceTypeList>
+<DeviceType value="0"><Name>FAPPCOMMAND_KEY</Name><Description>Keyboard</Description></DeviceType>
+<DeviceType value="32768"><Name>FAPPCOMMAND_MOUSE</Name><Description>Mouse</Description></DeviceType>
+<DeviceType value="4096"><Name>FAPPCOMMAND_OEM</Name><Description>Other Equipment</Description></DeviceType>
+</DeviceTypeList>
+<KeyStateList>
+<KeyState value="1"><Name>MK_LBUTTON</Name><Description>Left Mouse Button</Description></KeyState>
+<KeyState value="2"><Name>MK_RBUTTON</Name><Description>Right Mouse Button</Description></KeyState>
+<KeyState value="4"><Name>MK_SHIFT</Name><Description>Shift Key</Description></KeyState>
+<KeyState value="8"><Name>MK_CONTROL</Name><Description>Control Key</Description></KeyState>
+<KeyState value="16"><Name>MK_MBUTTON</Name><Description>Middle Mouse Button</Description></KeyState>
+<KeyState value="32"><Name>MK_XBUTTON1</Name><Description>X Mouse Button 1</Description></KeyState>
+<KeyState value="64"><Name>MK_XBUTTON2</Name><Description>X Mouse Button 2</Description></KeyState>
+</KeyStateList>
+</AppCommandApi>

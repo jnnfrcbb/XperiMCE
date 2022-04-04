@@ -1,0 +1,96 @@
+<xml>
+	<window fullscreen="yes"/>
+	<process appcommand="yes" gamecontroller="yes" mouseout="yes" sounds="yes" mousecharm="no"/>
+	<dashboard backcolor="30,30,30" background="no" image="M:\Backup\3527057808_c5a4f4094f_o_mod.png" weatherback="no" universalback="no" menuleft="no" highlightcolor="24,24,24" topbar="yes" bottombartrans="yes" font="LemonMilk" pin="">
+		<dash index="0" visible="yes" title="Home" fullmain="yes" tilecolor="190,30,90" tileborder="no" search="no">
+			<item index="0" visible="yes" locked="yes" title="Weather" subtitle="Weather" showtitle="yes" thumb="/images/dash/home/0.png" ispin="no" source="app##cWeather##3"/>
+			<item index="1" visible="yes" locked="yes" title="News" subtitle="BBC News" showtitle="yes" thumb="/images/dash/home/10.png" ispin="no" source="app##cNews##4"/>
+			<item index="2" visible="no" locked="yes" title="Sport" subtitle="BBC Sport" showtitle="yes" thumb="/images/dash/home/11.png" ispin="no" source="app##cSport##5"/>
+			<item index="3" visible="no" locked="yes" title="0 events" subtitle="Schedule" showtitle="yes" thumb="/images/dash/home/1.png" ispin="no" source="app##cCalendar##1"/>
+			<item index="4" visible="no" locked="yes" title="0 notifications" subtitle="Notification Centre" showtitle="yes" thumb="/images/dash/home/3.png" ispin="no" source=""/>
+			<item index="5" visible="yes" locked="yes" title="Devices" subtitle="Device Manager" showtitle="no" thumb="/images/dash/home/4.png" ispin="no" source="app##cDevices##7"/>
+		</dash>
+		<dash index="1" visible="yes" title="Music" fullmain="no" tilecolor="156,39,176" tileborder="no" search="yes">
+			<!-- <item index="0" visible="yes" locked="yes" title="Music Home" subtitle="Music | Home" showtitle="no" thumb="/images/dash/music/0.png" ispin="no" source="app##cMusicHome##10"/> -->
+			<item index="0" visible="yes" locked="no" title="Afraid of Nothing" subtitle="Now Playing" showtitle="yes" thumb="D:\XperiMCE\Components\Music\AlbumArt\Are+We+There+-+Sharon+Van+Etten.jpg" ispin="yes" source="app##cMusicHome##10"/>
+			<item index="1" visible="yes" locked="yes" title="Last.FM" subtitle="Music | Last.FM" showtitle="no" thumb="/images/dash/music/5.png" ispin="no" source="app##cMusicHome##10##initlastfm"/>
+			<item index="2" visible="yes" locked="yes" title="Artists" subtitle="Music | Artists" showtitle="no" thumb="/images/dash/music/1.png" ispin="no" source="app##cMusicHome##10##initartists"/>
+			<item index="3" visible="yes" locked="yes" title="Albums" subtitle="Music | Albums" showtitle="no" thumb="/images/dash/music/2.png" ispin="no" source="app##cMusicHome##10##initalbums"/>
+			<item index="4" visible="yes" locked="yes" title="SmartMixes" subtitle="Music | SmartMixes" showtitle="no" thumb="/images/dash/music/3.png" ispin="no" source="app##cMusicHome##10##initsmartmixes"/>
+			<item index="5" visible="yes" locked="yes" title="Radio" subtitle="Music | Radio" showtitle="no" thumb="/images/dash/music/4.png" ispin="no" source="app##cMusicHome##10##initradio"/>
+			<item index="6" visible="yes" locked="no" title="BBC Radio 6 Music" subtitle="Pinned | BBC Radio 6 Music" showtitle="no" thumb="D:\XperiMCE\Components\Music\radio-icons\bbcr6m.png" ispin="yes" source="radio##BBC Radio 6 Music##http://bbcmedia.ic.llnwd.net/stream/bbcmedia_6music_mf_p##D:\XperiMCE\Components\Music\radio-icons\bbcr6m.png"/>
+			<item index="7" visible="yes" locked="no" title="Absolute Radio" subtitle="Pinned | Absolute Radio" showtitle="no" thumb="D:\XperiMCE\Components\Music\radio-icons\absolute.png" ispin="yes" source="radio##Absolute Radio##http://network.absoluteradio.co.uk/core/audio/mp3/live.pls?service=vrbb##D:\XperiMCE\Components\Music\radio-icons\absolute.png"/>
+			<item index="8" visible="yes" locked="no" title="Radiohead" subtitle="Pinned | Radiohead" showtitle="no" thumb="D:\XperiMCE\Components\Music\ArtistArt\Radiohead.jpg" ispin="yes" source="musicartist##Radiohead##D:\XperiMCE\Components\Music\ArtistArt\Radiohead.jpg##"/></dash>
+		<dash index="2" visible="yes" title="Videos" fullmain="no" tilecolor="33,150,243" tileborder="no" search="yes">
+			<item index="0" visible="yes" locked="yes" title="" subtitle="Last Watched | Eternal Sunshine of the Spotless Mind" showtitle="no" thumb="M:\Video\Films\Eternal Sunshine of the Spotless Mind/backdrop.jpg" ispin="no" source="file##M:\Video\Films\Eternal Sunshine of the Spotless Mind\Eternal.Sunshine.of.the.Spotless.Mind.2004.1080p.BluRay.x264.anoXmous_.mp4##Eternal Sunshine of the Spotless Mind##1##0"/>
+			<item index="1" visible="yes" locked="yes" title="Films" subtitle="Video Library | Films" showtitle="no" thumb="/images/dash/videos/1.png" ispin="no" source="app##cFilms##24"/>
+			<item index="2" visible="yes" locked="yes" title="TV Shows" subtitle="Video Library | TV Shows" showtitle="no" thumb="/images/dash/videos/2.png" ispin="no" source="app##cTV##25"/>
+			<item index="3" visible="yes" locked="no" title="The Simpsons" subtitle="Pinned | The Simpsons" showtitle="no" thumb="M:\Video\TV\The Simpsons\backdrop.jpg" ispin="yes" source="tvshow##M:\Video\TV\The Simpsons\"/>
+			<item index="5" visible="no" locked="no" title="Browse" subtitle="Files On Your Computer" showtitle="yes" thumb="" ispin="no" source="app##cVideoBrowse##26"/><item index="" visible="" locked="" title="" subtitle="" showtitle="" thumb="" ispin="" source=""/><item index="" visible="" locked="" title="" subtitle="" showtitle="" thumb="" ispin="" source=""/></dash>
+		<dash index="3" visible="yes" title="Games" fullmain="no" tilecolor="69,90,100" tileborder="no" search="yes">
+			<item index="0" visible="yes" locked="yes" title="" subtitle="Last Played | Gran Turismo 4" showtitle="no" thumb="M:\Games\PS2\Gran_Turismo_4\backdrop.jpg" ispin="no" source="game##M:\Games\PS2\Gran_Turismo_4\Gran_Turismo_4.iso##Gran Turismo 4##M:\Games\PS2\Gran_Turismo_4\backdrop.jpg##True##C:\Program Files (x86)\PCSX2 1.4.0\pcsx2.exe##true##PS2 Games##100"/>
+			<item index="1" visible="yes" locked="yes" title="Game Library" subtitle="Game Library" showtitle="no" thumb="/images/dash/games/9.png" ispin="no" source="app##cGames##30"/>
+			<item index="2" visible="yes" locked="no" title="Mario Kart 64" subtitle="Pinned | Mario Kart 64" showtitle="no" thumb="M:\Games\N64\Mario Kart 64\folder.jpg" ispin="yes" source="game##M:\Games\N64\Mario Kart 64\Mario Kart 64.n64##Mario Kart 64##M:\Games\N64\Mario Kart 64\folder.jpg##True##C:\Program Files (x86)\Project64 1.6\Project64.exe##false##N64 Games"/>
+			<item index="3" visible="yes" locked="no" title="" subtitle="Pinned | Goldeneye 007" showtitle="no" thumb="M:\Games\N64\Goldeneye 007\folder.jpg" ispin="yes" source="game##M:\Games\N64\Goldeneye 007\Goldeneye 007.n64##Goldeneye 007##M:\Games\N64\Goldeneye 007\folder.jpg##True##C:\Program Files (x86)\Project64 1.6\Project64.exe##false##N64 Games"/>
+			<item index="" visible="" locked="" title="" subtitle="" showtitle="" thumb="" ispin="" source=""/></dash>
+		<dash index="4" visible="no" title="Pictures" fullmain="no" tilecolor="190,30,90" tileborder="no">
+			<item index="0" visible="yes" locked="no" title="Gallery" subtitle="All Images" showtitle="yes" thumb="/images/dash/pictures/1.png" ispin="" source="app##cGallery##40" subsource="0"/>
+		</dash>
+		<dash index="5" visible="no" title="Services" fullmain="no" tilecolor="190,30,90" tileborder="no">
+			<item index="0" visible="yes" locked="no" title="" subtitle="" showtitle="" thumb="" ispin="" source="" subsource="0"/>
+		</dash>
+	</dashboard>
+	<alarm source="radio##Absolute Radio##http://network.absoluteradio.co.uk/core/audio/mp3/live.pls?service=vrbb##D:\XperiMCE\Components\Music\radio-icons\absolute.png" thumb="D:\XperiMCE\Components\Music\radio-icons\absolute.png"/>
+	<apps>
+		<app name="cWeather" thumb="/images/dash/home/0.png" title="Weather" caption="" appindex="3"/>
+		<app name="cNews" thumb="/images/dash/home/10.png" title="News" caption="" appindex="4"/>
+		<app name="cSport" thumb="" title="Sport" caption="" appindex="5"/>
+		<app name="cCalendar" thumb="/images/dash/home/11.png" title="Calendar" caption="" appindex="1"/>
+		<app name="cNotifications" thumb="/images/dash/home/3.png" title="Notification Centre" caption="" appindex="6"/>
+		<app name="cDevices" thumb="/images/dash/home/4.png" title="Device Manager" caption="" appindex="7"/>
+		<app name="cMusicHome" thumb="/images/dash/music/0.png" title="Music Home" caption="" appindex="10"/>
+		<app name="cMusicArtists" thumb="/images/dash/music/9.png" title="Artists" caption="" appindex="14"/>
+		<app name="cMusicAlbums" thumb="/images/dash/music/10.png" title="Albums" caption="" appindex="15"/>
+		<app name="cSmartMixes" thumb="/images/dash/music/11.png" title="SmartMixes" caption="" appindex="16"/>
+		<app name="cRadio" thumb="/images/dash/music/2.png" title="Internet Radio" caption="" appindex="12"/>
+		<app name="cFilms" thumb="/images/dash/videos/9.png" title="Films" caption="" appindex="24"/>
+		<app name="cTV" thumb="/images/dash/videos/10.png" title="TV Shows" caption="" appindex="25"/>
+		<app name="cBrowseVideo" thumb="" title="Browse Videos" caption="" appindex="26"/>
+		<app name="cGames" thumb="/images/dash/games/9.png" title="Game Library" caption="" appindex="30"/>
+		<app name="cGallery" thumb="" title="Gallery" caption="" appindex="40"/>
+	</apps>
+	<pinitems>
+		<item index="0" title="Music | Library | Artist" thumb="/images/dash/music/9.png" app="cMusicHome##10##initartistspin"/>
+		<item index="1" title="Music | Radio Station" thumb="/images/dash/music/2.png" app="cMusicHome##10##initradiopin"/>
+		<item index="2" title="Videos | Film" thumb="/images/dash/videos/9.png" app="cFilms##24"/>
+		<item index="3" title="Videos | TV Show" thumb="/images/dash/videos/10.png" app="cTV##25"/>
+		<item index="4" title="Game" thumb="/images/dash/games/9.png" app="cGames##30"/>
+		<!-- <item index="4" title="Music Album" thumb="/images/dash/music/10.png" app="cMusicAlbums"/> -->
+		<!-- <item index="5" title="Music SmartMix" thumb="/images/dash/music/11.png" app="cSmartMixes"/> -->
+	</pinitems>
+	<music>
+		<folder>D:\Music</folder>
+		<speakers>surround</speakers>
+		<playbackVolume>75</playbackVolume>
+		<eq count="10">
+			<setting index="0" Hz="32" value="0"/>
+			<setting index="1" Hz="64" value="0"/>
+			<setting index="2" Hz="125" value="0"/>
+			<setting index="3" Hz="250" value="0"/>
+			<setting index="4" Hz="500" value="0"/>
+			<setting index="5" Hz="1000" value="0"/>
+			<setting index="6" Hz="2000" value="0"/>
+			<setting index="7" Hz="4000" value="0"/>
+			<setting index="8" Hz="8000" value="0"/>
+			<setting index="9" Hz="16000" value="0"/>
+		</eq>
+	</music>
+	<video>
+		<tv folder="M:\Video\TV"/>
+		<film folder="M:\Video\Films"/>
+	</video>
+	<user name="Jennifer Cobbe" type="Local account" cover="" photo="">
+		<google login="no" user="" pass="" refreshToken="1/Z8HS9GVQVfn_Mfo1Ap9yTURQJUI8R-pfNzKBLwf-uZ0"/>
+		<lastfm login="yes" user="phonic_party" pass="malone"/>
+	</user>
+</xml>

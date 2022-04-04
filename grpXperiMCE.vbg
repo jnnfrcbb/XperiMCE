@@ -1,0 +1,15 @@
+VBGROUP 5.0
+StartupProject=prjXperiMCE.vbp
+Project=Components\Calendar\prjCalendar.vbp
+Project=Components\Gallery\prjGallery.vbp
+Project=Components\Games\prjGames.vbp
+Project=Components\GoogleAuth\prjGoogleAuth.vbp
+Project=Components\HoriScroll\prjHoriSccroll.vbp
+Project=Components\Keyboard\prjKeyboard.vbp
+Project=Components\Music\prjMusic.vbp
+Project=Components\News\prjNews.vbp
+Project=Components\Notifications\prjNotifications.vbp
+Project=Components\Sport\prjSport.vbp
+Project=Components\Videos\prjVideos.vbp
+Project=Components\Weather\prjWeather.vbp
+Project=Components\Devices\prjDevices.vbp

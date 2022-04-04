@@ -1,0 +1,20 @@
+<xml>
+	<file extension="mp3" internal="yes" type="audio" program="" hasQuotes="" />
+	<file extension="mp1" internal="yes" type="audio" program="" hasQuotes="" />
+	<file extension="mp2" internal="yes" type="audio" program="" hasQuotes="" />
+	<file extension="mpa" internal="yes" type="audio" program="" hasQuotes="" />
+	<file extension="mpc" internal="yes" type="audio" program="" hasQuotes="" />
+	<file extension="lac" internal="yes" type="audio" program="" hasQuotes="" />
+	<file extension="ogg" internal="yes" type="audio" program="" hasQuotes="" />
+	<file extension="m4a" internal="yes" type="audio" program="" hasQuotes="" />
+	<file extension="avi" internal="yes" type="video" program="" hasQuotes="" />
+	<file extension="mp4" internal="yes" type="video" program="" hasQuotes="" />
+	<file extension="mkv" internal="yes" type="video" program="" hasQuotes="" />
+	<file extension="wmv" internal="yes" type="video" program="" hasQuotes="" />
+	<file extension=".ts" internal="yes" type="dvd" program="" hasQuotes="" />
+	<file extension="swf" internal="yes" type="flash" program="" hasQuotes="" />
+	<file extension="xml" internal="yes" type="rss" program="" hasQuotes="" />
+	<file extension="lnk" internal="no" type="shortcut" program="" hasQuotes="" />
+	<file extension="exe" internal="no" type="executable" program="" hasQuotes="" />
+	<file extension="..." internal="yes" type="browser" program="" hasQuotes="" />
+</xml>
